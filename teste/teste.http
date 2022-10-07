@@ -1,0 +1,28 @@
+### Testando Get
+GET http://localhost:5238/api/usuario/listar
+
+### Testando Post
+POST http://localhost:5238/api/usuario/cadastrar
+Content-Type: application/json
+//Para testar com o corpo tem que colocar como enter
+
+{
+  "login": "vitorrfidelis@santos.com",
+  "senha": "teste"
+}
+
+### Testando Get pelo nome
+POST   http://localhost:5238/api/usuario/buscar/vitorrfidelis@santos.com
+
+### Testando Delete
+
+DELETE    http://localhost:5238/api/usuario/deletar/vitorrrfidelis@santos.com
+
+### Testando Atualizar
+PUT  http://localhost:5238/api/usuario/atulizar/vitorfidelis@santos.com
+Content-Type: application/json
+
+{
+  "login": "atualizado2@santos.com",
+  "senha": "teste"
+}

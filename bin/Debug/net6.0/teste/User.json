@@ -1,0 +1,17 @@
+[
+{
+  "login": "vitorfidelis@santos.com",
+  "senha": "teste",
+  "acessos": 522,
+  "avaliacao": 5.4,
+  "ativo": true 
+},
+
+{
+  "login": "rubia@fidelis.com",
+  "senha": "teste1",
+  "acessos": 221,
+  "avaliacao": 10,
+  "ativo": false 
+}
+]
